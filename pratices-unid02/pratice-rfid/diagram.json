@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "francisco silva",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -9, "left": -384.6, "attrs": {} },
+    { "type": "wokwi-logic-analyzer", "id": "logic1", "top": 29.15, "left": -9.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "logic1:D0", "uno:10", "orange", [ "h-9.6", "v-96", "h-211.2" ] ],
+    [ "logic1:D1", "uno:13", "gold", [ "h-19.2", "v-144", "h-220.8", "v0", "h-9.6" ] ],
+    [ "logic1:D2", "uno:11", "green", [ "h-28.8", "v-134.4", "h-192", "v0", "h-9.6" ] ],
+    [ "logic1:D3", "uno:12", "blue", [ "h-38.4", "v-192", "h-201.6", "v9.6" ] ],
+    [ "logic1:GND", "uno:3.3V", "red", [ "h-9.6", "v144", "h-220.8" ] ],
+    [ "logic1:D7", "uno:9", "purple", [ "h-19.2", "v0", "h-38.4", "v-144", "h-153.6" ] ],
+    [ "logic1:D6", "uno:GND.2", "black", [ "h-28.8", "v211.2", "h-172.8", "v-19.2" ] ]
+  ],
+  "dependencies": {}
+}
